@@ -248,7 +248,8 @@ resource "aws_instance" "ssm_demo_linux" {
   )
 
   tags = {
-    Name = "${var.name}-linux"
+    Name = "${var.name}-linux",
+    PortForward = "true"
   }
 }
 
@@ -270,7 +271,8 @@ resource "aws_instance" "ssm_demo_windows" {
   )
 
   tags = {
-    Name = "${var.name}-windows"
+    Name = "${var.name}-windows",
+    PortForward = "false"
   }
 }
 
