@@ -2,11 +2,11 @@
 
 ## Overview
 
-This folder contains a simple project for deploying AWS environment to demonstrate AWS SSM Session Manager port forwarding. For more details, read my [blog post](https://blog.wkhoo.com/posts/ssm-port-forwarding-part1/).
+This folder contains a simple project for deploying AWS environment to demonstrate AWS SSM Session Manager port forwarding. For more details, read my [blog post](https://blog.wkhoo.com/posts/ssm-port-forwarding-part2/).
 
 The Terraform code will deploy the AWS resources as depicted in this high level architecture diagram:
 
-![Demo architecture](https://blog.wkhoo.com/images/ssm-port-fwd-architecture_hubcbecaed078dac6ad8be036d2ec6ff82_77974_800x640_fit_q50_box.jpeg)
+![Demo architecture](https://blog.wkhoo.com/images/secure-ssm-architecture_huc99b2551ded5814faeefb358abb71c24_96205_800x640_fit_q50_box.jpeg)
 
 > **Important note:** Deploying the demo environment will incur some cost in your AWS account even if you're on free tier because of the SSM endpoints and data transfer charges.
 
